@@ -1,0 +1,75 @@
+.login {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .formulario {
+    width: 300px;
+    margin-left: 44px;
+  }
+  
+  
+  .botón {
+    background-color: #fe7b00;
+    color: white;
+  }
+  
+  .iniciosesion {
+    background-color: #fe7b00;
+    width: 100px;
+    font-size: small;
+    height: 37px;
+  }
+  
+  
+  .registro {
+    font-size: small;
+    width: 90px;
+    height: 37px;
+    justify-self: self-end;
+  }
+  
+  
+  .texto {
+    margin-top: 20px;
+  }
+  
+  
+  .grid-item {
+    width: 400px;
+  }
+  
+  @media (max-width: 872px) {
+    .logo1 {
+      display: none;
+    }
+    .login {
+      max-width: 400px;
+      min-width: 180px;
+    }
+  }
+  
+  .pagina {
+    background-color: #E68309;
+  }
+  
+  .logo2{
+    margin-left: 50px;
+  }
+  
+  @media (min-width: 872px) {
+    .logo2 {
+      display: none;
+    }
+  }
+  
+  

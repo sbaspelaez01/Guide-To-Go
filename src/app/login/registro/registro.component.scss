@@ -1,0 +1,105 @@
+.login {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* // .botón {
+  
+  // margin-top: 120px;
+  // } */
+  
+  .botón {
+  background-color: red;
+  }
+  
+  .signin {
+    width: 100px;
+    font-size: small;
+    height: 37px;
+  }
+  
+  .registro {
+    background-color: #E68309;
+    font-size: small;
+    width: 100px;
+    height: 37px;
+    justify-self: self-end;
+  }
+  
+  /* // .registro-signin {
+  //   margin-left: 220px;
+  //   margin-top: 5px;
+  // } */
+  
+  /* .Email {
+    width: 240px;
+  }
+  
+  */
+  
+  .formulario {
+    width: 300px;
+    margin-left: 42px;
+  }
+  
+  .texto {
+    margin-top: 20px;
+  
+  }
+  
+  .grid-item{
+    width: 400px;
+    margin-right: 20px;
+  }
+  
+  .candado {
+    margin-right: 4px;
+  }
+  
+  .usuario {
+    margin-right: 4px;
+  }
+  
+  .mundo {
+    margin-right: 4px;
+  }
+  
+  @media (max-width: 872px) {
+    .imagen {
+      display: none;
+    }
+  
+    .login {
+      max-width: 400px;
+      min-width: 200px;
+    }
+  
+  }
+  
+  .pagina {
+    background-color: #E68309;
+  }
+  
+  .botón {
+    background-color: #E68309;
+  }
+  
+  .logo2{
+    margin-left: 45px;
+  }
+  
+  @media (min-width: 872px) {
+    .logo2 {
+      display: none;
+    }
+  }

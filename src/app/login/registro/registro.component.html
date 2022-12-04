@@ -1,0 +1,83 @@
+<div class="pagina vh-100 align-items-center d-flex justify-content-center">
+
+    <div class="login d-flex shadow-lg p-3 bg-white  rounded justify-content-center">
+
+        <div class="grid-item">
+            <img class="imagen"
+                src="https://cdn.brainpop.com/mx/mx/tecnologia/ciencia_e_industria/brujula/screenshot1.png" alt=""
+                width="390px" height="470px">
+        </div>
+
+        <div class="grid-item">
+            <!-- Botones de registro y signup -->
+            <div>
+                <mat-button-toggle-group class="registro-signin" name="fontStyle" aria-label="Font Style">
+                    <mat-button-toggle class="registro justify-content-center d-flex align-items-center" value="bold">
+                        Registrarse
+                    </mat-button-toggle>
+                    <mat-button-toggle class="signin justify-content-center d-flex align-items-center" value="italic">
+                        Iniciar sesión
+                    </mat-button-toggle>
+                </mat-button-toggle-group>
+
+                <img class="logo2" src="https://assets.stickpng.com/images/58737bd3f3a71010b5e8ef37.png" alt="" height="30px" width="100px">
+
+            </div>
+
+            <h2 class=" texto mt-3">Registro</h2>
+
+            <div class="formulario ">
+                <!-- formulario Email -->
+                <div class="Email text-withe row">
+                    <mat-form-field class="example-full-width mt-4">
+                        <mat-label><img class="usuario" src="http://cdn.onlinewebfonts.com/svg/img_337531.png" alt=""
+                                height="17px" width="17px">Full Name</mat-label>
+                        <input matInput placeholder="examplecorreo@correo" value="">
+                    </mat-form-field>
+                </div>
+                <!-- formulario Contraseña -->
+                <div class="Country row ">
+                    <mat-form-field class="example-full-width mt-3">
+                        <mat-label> <img class="mundo" src="https://cdn-icons-png.flaticon.com/512/44/44748.png" alt=""
+                                height="17px" width="17px" alt="" height="18px" width="18px">Country
+                        </mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+                </div>
+
+                <div class="Password row">
+                    <mat-form-field class="example-full-width mt-3">
+                        <mat-label> <img class="candado"
+                                src="https://icones.pro/wp-content/uploads/2022/08/icone-de-cadenas-de-securite-gris.png"
+                                alt="" height="17px" width="17px" alt="" height="18px" width="18px">Password
+                        </mat-label>
+                        <input type="password" matInput placeholder="" value="">
+                    </mat-form-field>
+                </div>
+
+                <div class="Repeatpassword row">
+                    <mat-form-field class="example-full-width mt-3">
+                        <mat-label> <img class="candado"
+                                src="https://icones.pro/wp-content/uploads/2022/08/icone-de-cadenas-de-securite-gris.png"
+                                alt="" height="17px" width="17px" alt="" height="18px" width="18px">Repeat Password
+                        </mat-label>
+                        <input type="password" matInput placeholder="" value="">
+                    </mat-form-field>
+                </div>
+
+                <div class="terminos row mt-2 d-flex">
+                    <mat-radio-group [(ngModel)]="labelPosition">
+                        <mat-radio-button value="">
+                            Estoy de acuerdo con los términos y condiciones
+                        </mat-radio-button>
+                    </mat-radio-group>
+                </div>
+
+                <!-- botón enviar -->
+                <div class="align-items-center d-flex justify-content-center example-button-row mt-4">
+                    <button class="botón align-items-center d-flex justify-content-center example-button-row mt-2"
+                        mat-raised-button>Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
