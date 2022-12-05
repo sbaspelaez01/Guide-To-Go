@@ -2,10 +2,10 @@
 
     <div class="login shadow p-3 mb-5 d-flex bg-body rounded justify-content-center">
 
-        <div class="grid-item">
-            <img class="logo1"
-                src="https://cdn.brainpop.com/mx/mx/tecnologia/ciencia_e_industria/brujula/screenshot1.png" alt=""
-                width="380px" height="400px">
+        <div class="grid-item align-items-center justify-content-center d-flex">
+            <img class="logo1 "
+                src="https://res.cloudinary.com/degujt9v4/image/upload/v1669938537/guide_to_go_recursos_-_logo2_prc2pb.png"
+                alt="" width="320px" height="300px">
         </div>
 
         <div class="grid-item">
@@ -21,7 +21,9 @@
                     </mat-button-toggle>
                 </mat-button-toggle-group>
 
-                <img class="logo2" src="https://assets.stickpng.com/images/58737bd3f3a71010b5e8ef37.png" alt="" height="30px" width="100px">
+                <img class="logo2"
+                    src="https://res.cloudinary.com/degujt9v4/image/upload/v1669938537/guide_to_go_recursos_-_logo2_prc2pb.png"
+                    alt="" height="70px" width="130px">
 
             </div>
 
@@ -35,7 +37,7 @@
                         <mat-label><img
                                 src="https://icones.pro/wp-content/uploads/2021/02/icone-de-courrier-electronique-gris.png"
                                 alt="" height="20px" width="20px">Email</mat-label>
-                        <input matInput placeholder="examplecorreo@correo" value="">
+                        <input matInput placeholder="examplecorreo@correo" value="" formControlName="Email">
                     </mat-form-field>
                 </div>
                 <!-- formulario Contraseña -->
@@ -45,14 +47,15 @@
                                 src="https://icones.pro/wp-content/uploads/2022/08/icone-de-cadenas-de-securite-gris.png"
                                 alt="" height="18px" width="18px" alt="" height="18px" width="18px">Contraseña
                         </mat-label>
-                        <input type="password" matInput placeholder="" value="">
+                        <input type="password" matInput placeholder="" value="" formControlName="Contraseña">
+                        <mat-error>A</mat-error>
                     </mat-form-field>
                 </div>
             </div>
 
             <!-- botón enviar -->
             <div class="align-items-center d-flex justify-content-center example-button-row mt-3">
-                <button class="botón align-items-center d-flex justify-content-center example-button-row mt-2"
+                <button class="botón"
                     mat-raised-button>Enviar</button>
             </div>
         </div>

@@ -1,7 +1,6 @@
 .login {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 2px;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -14,7 +13,7 @@
   
   .formulario {
     width: 300px;
-    margin-left: 44px;
+    margin-left: 30px;
   }
   
   
@@ -25,7 +24,7 @@
   
   .iniciosesion {
     background-color: #fe7b00;
-    width: 100px;
+    width: 97px;
     font-size: small;
     height: 37px;
   }
@@ -33,7 +32,7 @@
   
   .registro {
     font-size: small;
-    width: 90px;
+    width: 87px;
     height: 37px;
     justify-self: self-end;
   }
@@ -45,7 +44,7 @@
   
   
   .grid-item {
-    width: 400px;
+    width: 360px;
   }
   
   @media (max-width: 872px) {
@@ -54,7 +53,7 @@
     }
     .login {
       max-width: 400px;
-      min-width: 180px;
+      min-width: 170px;
     }
   }
   
@@ -63,8 +62,9 @@
   }
   
   .logo2{
-    margin-left: 50px;
+    margin-left: 20px;
   }
+  
   
   @media (min-width: 872px) {
     .logo2 {

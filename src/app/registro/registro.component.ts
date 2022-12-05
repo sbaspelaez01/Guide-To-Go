@@ -5,13 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './registro.component.html',
   styleUrls: ['./registro.component.scss']
 })
-
 export class RegistroComponent implements OnInit {
-
-  checked = false;
-  indeterminate = false;
-  labelPosition: 'before' | 'after' = 'after';
-  disabled = false;
 
   constructor() { }
 
